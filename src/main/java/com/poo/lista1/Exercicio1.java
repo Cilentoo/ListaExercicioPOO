@@ -11,9 +11,9 @@ public class Exercicio1 {
         int n1;
         int n2;
 
-        System.out.println("Send the first number: ");
+        System.out.println("Escreva o primeiro número: ");
         n1 = sc.nextInt();
-        System.out.println("Send the second number: ");
+        System.out.println("Escreva o segundo número: ");
         n2 = sc.nextInt();
 
         System.out.println("O resultado da soma é: " + (n1+n2));
