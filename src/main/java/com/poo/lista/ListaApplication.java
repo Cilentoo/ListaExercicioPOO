@@ -1,5 +1,6 @@
 package com.poo.lista;
 
+import com.poo.lista1.Exercicio1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +9,7 @@ public class ListaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ListaApplication.class, args);
+		Exercicio1.resolucao();
 	}
 
 }
