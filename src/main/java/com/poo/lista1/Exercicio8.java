@@ -13,7 +13,7 @@ public class Exercicio8 {
         double celsius;
         double fahrenheit;
 
-        System.out.println("Leia os graus celsius: ");
+        System.out.println("Leia os graus fahrenheit: ");
         fahrenheit = sc.nextDouble();
 
         celsius = ((fahrenheit - 32)/1.8);
