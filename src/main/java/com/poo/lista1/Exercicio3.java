@@ -13,7 +13,7 @@ public class Exercicio3 {
         System.out.println("Escreva o valor em real: ");
         valorEmReal = sc.nextDouble();
 
-        System.out.printf("O valor em dolar é: $ %.2f " , dolar * valorEmReal);
+        System.out.printf("O valor em dolar é: $ %.2f ", dolar * valorEmReal);
 
 
         sc.close();
