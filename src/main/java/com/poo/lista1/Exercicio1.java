@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Exercicio1 {
     public static void resolucao() {
+        //1) Escreva um programa que faça a soma entre 2 números.
+
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 

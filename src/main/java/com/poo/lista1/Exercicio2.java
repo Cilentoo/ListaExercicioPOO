@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class Exercicio2 {
     public static void resolucao() {
+        //2) Escreva um programa que pergunte o nome e o
+        //sobrenome do usuário e escreva na tela: "Olá, -usuário-".
+
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
