@@ -2,6 +2,7 @@ package com.poo.lista;
 
 import com.poo.lista1.*;
 import com.poo.lista2.Exercicio1;
+import com.poo.lista2.Exercicio2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -24,7 +25,10 @@ public class ListaApplication {
 
 		/*Listas desvios condicionais
 		Exercicio1.resolucao2();
+		Exercicio2.resolucao2();
 		 */
+
+
 
 
 	}
