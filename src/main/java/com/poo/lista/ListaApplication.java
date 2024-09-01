@@ -7,6 +7,7 @@ import com.poo.lista2.Exercicio3;
 import com.poo.lista2.Exercicio4;
 import com.poo.lista2.Exercicio5;
 import com.poo.lista2.Exercicio6;
+import com.poo.lista2.Exercicio7;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -33,8 +34,10 @@ public class ListaApplication {
 		Exercicio3.resolucao2();
 		Exercicio4.resolucao2();
 		Exercicio5.resolucao2();
-		 */
 		Exercicio6.resolucao2();
+		Exercicio7.resolucao2();
+		 */
+
 
 
 
