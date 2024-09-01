@@ -32,7 +32,7 @@ public class Exercicio3 {
             System.out.println("Ótimo, dirija-se a fila comum!");
         }
 
-
+        sc.close();
     }
 }
 
