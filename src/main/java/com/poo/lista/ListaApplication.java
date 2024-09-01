@@ -40,7 +40,16 @@ public class ListaApplication {
 		Exercicio8.resolucao2();
 		 */
 
-
+		/*Lista roni
+		Exercicio1.resolucao3();
+		Exercicio2.resolucao3();
+		Exercicio3.resolucao3();
+		Exercicio4.resolucao3();
+		Exercicio5.resolucao3();
+		Exercicio6.resolucao3();
+		Exercicio7.resolucao3();
+		Exercicio8.resolucao3();
+		 */
 
 
 
