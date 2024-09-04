@@ -14,7 +14,7 @@ public class Exercicio4L3 {
         int maxAttempts = 15;
 
         for(int i = 0; i < maxAttempts; i++){
-            System.out.println("Digite um numero : ");
+            System.out.println("Send same number : ");
             int guess = sc.nextInt();
             attempts++;
             if (guess < secretNumber){
