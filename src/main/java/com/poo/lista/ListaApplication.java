@@ -49,9 +49,8 @@ public class ListaApplication {
 		Exercicio3L3.resolucao4();
 		Exercicio4L3.resolucao4();
 		Exercicio5L3.resolucao4();
-		 */
-
 		Exercicio6L3.resolucao4();
+		 */
 
 
 
