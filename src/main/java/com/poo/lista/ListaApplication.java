@@ -2,10 +2,7 @@ package com.poo.lista;
 
 import com.poo.lista3.Exercicio4L3;
 import com.poo.lista3.Exercicio6L3;
-import com.poo.lista4.Exercicio1L4;
-import com.poo.lista4.Exercicio2L4;
-import com.poo.lista4.Exercicio3L4;
-import com.poo.lista4.Exercicio4L4;
+import com.poo.lista4.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -63,8 +60,9 @@ public class ListaApplication {
 		Exercicio2L4.resolucao5();
 		Exercicio3L4.resolucao5();
 		Exercicio4L4.resolucao5();
+		Exercicio5L4.resolucao5();
 		 */
-
+		Exercicio6L4.resolucao5();
 
 
 
