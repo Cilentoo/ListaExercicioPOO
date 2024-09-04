@@ -1,14 +1,9 @@
 package com.poo.lista;
 
-import com.poo.lista1.*;
-import com.poo.lista2.Exercicio1;
-import com.poo.lista2.Exercicio2;
-import com.poo.lista2.Exercicio3;
-import com.poo.lista2.Exercicio4;
-import com.poo.lista2.Exercicio5;
-import com.poo.lista2.Exercicio6;
-import com.poo.lista2.Exercicio7;
-import com.poo.lista2.Exercicio8;
+import com.poo.lista3.Exercicio1L3;
+import com.poo.lista3.Exercicio2L3;
+import com.poo.lista3.Exercicio3L3;
+import com.poo.lista3.Exercicio4L3;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -51,10 +46,12 @@ public class ListaApplication {
 		Exercicio8.resolucao3();
 		 */
 
-
-
-
-
+		/*Lista de laços de repetição
+		Exercicio1L3.resolucao4();
+		Exercicio2L3.resolucao4();
+		Exercicio3L3.resolucao4();
+		Exercicio4L3.resolucao4();
+		 */
 
 
 	}
