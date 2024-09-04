@@ -6,21 +6,12 @@ public class Exercicio1L4 {
         vendas do dia são gravados em um vetor. Digite um código que faça o
         fechamento (soma) de vendas do dia de maneira automatizada. */
 
-        double array[] = new double[4];
-        double soma;
+        double array[] = {500.00, 600.00, 850.00, 1080.00};
+        double sum = 0;
 
         for (int i = 0; i < array.length; i++){
-            array[0] = 500.00;
-            array[1] = 600.00;
-            array[2] = 850.00;
-            array[3] = 1080.00;
-
-            soma = array[0] + array[1] + array[2] + array[3];
-            System.out.println("O total de vendas é: " + soma);
-            break;
+            sum += array[i];
         }
-
-
-
+        System.out.println("The total sales value is: " + sum);
     }
 }

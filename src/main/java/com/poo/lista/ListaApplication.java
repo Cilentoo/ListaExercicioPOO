@@ -1,7 +1,8 @@
 package com.poo.lista;
 
-import com.poo.lista3.*;
 import com.poo.lista4.Exercicio1L4;
+import com.poo.lista4.Exercicio2L4;
+import com.poo.lista4.Exercicio3L4;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -56,7 +57,9 @@ public class ListaApplication {
 
 		/*Lista de arrays e matrix
 		Exercicio1L4.resolucao5();
+		Exercicio2L4.resolucao5();
 		 */
+		Exercicio3L4.resolucao5();
 
 
 
