@@ -20,7 +20,7 @@ public class Exercicio7L3 {
         width = sc.nextInt();
 
         DrawRectangle(height, width);
-
+        sc.close();
     }
 
     public static void DrawRectangle(int height, int width ){

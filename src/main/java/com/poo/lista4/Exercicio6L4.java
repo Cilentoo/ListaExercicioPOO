@@ -1,12 +1,23 @@
 package com.poo.lista4;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.sql.SQLOutput;
+import java.util.*;
 
 public class Exercicio6L4 {
     public static void resolucao5() {
+        /* 6) Aproveite a questão anterior e adiciona a opção do usuário remover
+        um item.
+
+        7) Aproveite o código que estamos utilizando e implemente um preço
+        para cada item (Dica. Utilizem outra lista e use os mesmos índices para
+        o item e para o preço).
+
+        8) Aproveite os códigos anteriores e implemente a função de impressão
+        por ordem de preço (crescente)*/
+
         Scanner sc = new Scanner(System.in);
         ArrayList<String> purchaseList = new ArrayList<>();
+        Map<String, Double> buy = new HashMap<>();
 
         while(true){
             System.out.println("\n--- Purchase List ---");
@@ -22,6 +33,12 @@ public class Exercicio6L4 {
                 case 1:
                     System.out.println("Choose an item: ");
                     String item = sc.nextLine();
+
+                    System.out.println("What is the price: ");
+                    Double price = sc.nextDouble();
+
+                    buy.put(item,price);
+
                     purchaseList.add(item);
                     System.out.println("Item added");
                     break;
@@ -30,6 +47,8 @@ public class Exercicio6L4 {
                         System.out.println("Your list is empty!");
                     }else {
                         System.out.println("\n---- Your purchase list ----");
+                        List<Map.Entry<String, Double>> list = new ArrayList<>((buy.entrySet()));
+                        list.sort(Map.Entry.comparingByValue());
                         for (String i : purchaseList){
                             System.out.println("- " + i);
                         }

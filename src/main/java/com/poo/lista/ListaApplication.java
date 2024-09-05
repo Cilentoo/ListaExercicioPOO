@@ -55,14 +55,16 @@ public class ListaApplication {
 		Exercicio7L3.resolucao4();
 		 */
 
+
 		/*Lista de arrays e matrix
 		Exercicio1L4.resolucao5();
 		Exercicio2L4.resolucao5();
 		Exercicio3L4.resolucao5();
 		Exercicio4L4.resolucao5();
 		Exercicio5L4.resolucao5();
-		 */
 		Exercicio6L4.resolucao5();
+		 */
+
 
 
 

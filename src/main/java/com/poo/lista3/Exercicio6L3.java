@@ -1,6 +1,6 @@
 package com.poo.lista3;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Exercicio6L3 {
@@ -18,6 +18,7 @@ public class Exercicio6L3 {
         floors = sc.nextInt();
 
         DrawPyramid(floors);
+        sc.close();
 
     }
 
