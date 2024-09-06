@@ -15,6 +15,9 @@ public class Exercicio6L4 {
         8) Aproveite os códigos anteriores e implemente a função de impressão
         por ordem de preço (crescente)*/
 
+
+        //Adicionar o preço com virgula para nao quebrar o programa
+
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
         ArrayList<String> purchaseList = new ArrayList<>();

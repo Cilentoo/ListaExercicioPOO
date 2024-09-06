@@ -64,10 +64,6 @@ public class ListaApplication {
 		Exercicio5L4.resolucao5();
 		Exercicio6L4.resolucao5();
 		 */
-
-
-
-
-
+		Exercicio6L4.resolucao5();
 	}
 }
