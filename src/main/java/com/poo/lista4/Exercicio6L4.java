@@ -16,6 +16,7 @@ public class Exercicio6L4 {
         por ordem de preço (crescente)*/
 
         Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);
         ArrayList<String> purchaseList = new ArrayList<>();
         Map<String, Double> buy = new HashMap<>();
 
