@@ -54,7 +54,8 @@ public class Exercicio6L4 {
                         List<Map.Entry<String, Double>> list = new ArrayList<>((buy.entrySet()));
                         list.sort(Map.Entry.comparingByValue());
                         for (String i : purchaseList){
-                            System.out.println("- " + i);
+                            System.out.println("- " + buy );
+                            break;
                         }
                     }
                     break;
